@@ -1,0 +1,202 @@
+﻿Brand,Generic,Class,Treatment,Schedule
+Prinivil,Lisinopril,ACEi,Antihypertensive,NCLM
+Glucophage,Metformin,Biguanide,Diabetes medication,NCLM
+Toprol XL,Metoprolol succinate ER,Beta-blocker,Antihypertensive,NCLM
+Cozaar,Losartan potassium,ARB,Antihypertensive,NCLM
+Microzide,Hydrochlorothiazide,Thiazide diuretic,Antihypertensives,NCLM
+Lipitor ,Atorvastatin,HMG-CoA Reductase Inhibitor,Cholesterol lowering ,NCLM
+Norvasc,Amlodipine ,Calcium Channel Blocker,Antihypertensive,NCLM
+Prilosec,Omeprazole ,PPI,Acid-Reflux/GERD ,OTC & NCLM (strength) 
+"ProAir HFA, Ventolin HFA",Albuterol ,Beta agonist ,"Bronchodilator, asthma",NCLM
+"Vicodin, Norco, Lortab ",Hydrocodone/APAP,Opioid analgesic combination ,Pain reliever ,II
+"Synthroid, Levoxyl",Levothyroxine,Thyroid hormone,Hypothyroidism,NCLM
+Lopressor,Metoprolol tartrate,Beta-blocker,Antihypertensive,NCLM
+Zocor,Simvastatin,HMG-CoA Reductase Inhibitor,Cholesterol lowering,NCLM
+Neurontin,Gabapentin,Anticonvulsant,"Neruopathic pain, seizures","NCLM, V (some states)"
+Zoloft,Sertraline,SSRI,Antidepressant,NCLM
+Flonase,Fluticasone,Nasal steroid ,Allergic rhinitis ,OTC & NCLM as generic 
+Amoxil,Amoxicillin ,Penicillin Antibiotic ,Bacterial Infection ,NCLM
+Celexa,Citalopram,SSRI,Antidepressant,NCLM
+Coreg,Carvedilol,Beta-Blocker ,Antihypertensives,NCLM
+Ultram,Tramadol,Opioid Analgesic ,Pain Relief ,IV
+Singulair,Montelukast,Leukotriene modulator ,Asthma treatment ,NCLM
+Protonix ,Pantoprazole Sodium,PPI,Acid-Reflux/GERD ,NCLM
+Adderall ,Mixed Amphetamine Salts ,Stimulant,ADHD,II
+Desyrel,Trazodone,Antidepressant,Depression,NCLM
+Crestor,Rosuvastatin,HMG-CoA Reductase Inhibitor ,Cholesterol Lowering,NCLM
+Lasix,Furosemide,Loop of Henle diuretic,Antihypertensive,NCLM
+Tylenol,Acetaminophen,"Anti-pyretic, analgesic",Pain Relief,OTC
+Motrin,Ibuprofen,NSAID,Pain/Inflammation Relief,OTC & NCLM (strength)
+Prozac,Fluoxetine,SSRI,Antidepressant,NCLM
+Ozempic,Semaglutide,GLP-1 agonists,Type 2 Diabetes (off-label WL),NCLM
+Lantus,Insulin Glargine ,Long-Acting Insulin ,Diabetes Agent ,NCLM
+Klonopin,Clonazepam,Benzodiazepine,"Anxiety, Sedative",IV
+Flomax,Tamsulosin,Alpha-Blocker ,Enlarged Prostate ,NCLM
+Tenormin,Atenolol,Beta-Blocker ,Antihypertensive,NCLM
+Klor-Con ,Potassium,Electrolyte,Electrolyte,NCLM
+Plavix,Clopidogrel,"P2Y12 Inhibitor, Anti-platelet ",Clot Prevention ,NCLM
+Inderal,Propranolol,Beta-Blocker ,Antihypertensive,NCLM
+N/A ,Aspirin,"NSAID, Anti-Platelet ","Pain relief, Clot Prevention ",OTC
+Flexeril,Cyclobenzaprine,Muscle Relaxer ,Pain Relief ,NCLM
+Zestoretic,Lisinopril/HCTZ ,ACEi/Thiazide Diuretic ,Antihypertensives,NCLM
+Effexor,Venlafaxine,SNRI,Antidepressant,NCLM
+Ambien,Zolpidem Tartrate,Sedative,Sleep,IV
+Coumadin,Warfarin,Vitamin K Antagonist,"Anticoagulation, Blood Thinner",NCLM
+OxyContin,Oxycodone,Opioid Analgesic,Pain Relief,II
+"Gildess, Junel, Loestrin, Microgestin",Ethinyl Estradiol/Norethindrone,Oral Contraceptive,"Pregnancy Prevention, Hormone Regulation",NCLM
+Mobic,Meloxicam,NSAID,Pain/Inflammation Relief,NCLM
+Zithromax,Azithromycin,Macrolide Antibiotic,Bacterial Infection,NCLM
+Flagyl,Metronidazole,Antibiotic,Bacterial Infection,NCLM
+Claritin,Loratadine,"H1RA, Anti-Histamine Class: ",Allergies,OTC
+Lamictal,Lamotrigine,Anticonvulsant,Seizure Prevention,NCLM
+Glucotrol,Glipizide,Sulfonylurea,Diabetes Agent,NCLM
+Cymbalta,Duloxetine,SNRI,Antidepressant,NCLM
+"Ritalin, Concerta",Methylphenidate,Stimulant,ADHD,II
+Ativan,Lorazepam,Benzodiazepine,"Anxiety, Sedative",IV
+Estrace,Estradiol,Female Hormone ,Hormone Supplement ,NCLM
+Zyloprim,Allopurinol,Xanthine Oxidase Inhibitor,Gout Treatment,NCLM
+Deltalin,Ergocalciferol,Vitamin D Supplement,Vitamin D Supplement,NCLM
+Novolog,Insulin Aspart,Rapid Acting Insulin,Diabetes Agent,NCLM
+Ortho Tri-Cyclen,Ethinyl Estradiol/Norgestimate,Oral Contraceptive,"Pregnancy Prevention, Hormone Regulation",NCLM
+Amaryl,Glimepiride,Sulfonylurea,Diabetes Agent,NCLM
+Advair Diskus ,Fluticasone/Salmeterol ,Inhaled Corticosteroid/Long-Acting Beta-Agonist ,Asthma Treatment ,NCLM
+Zyrtec,Cetirizine,"H1RA, Anti-Histamine ",Allergies,OTC
+Hyzaar,Losartan/Hydrochlorothiazide ,ARB/Thiazide Diuretic ,Antihypertensive,NCLM
+Paxil,Paroxetine,SSRI,Antidepressant,NCLM
+Aldactone,Spironolactone,Potassium-Sparing Diuretic ,Antihypertensive,NCLM
+Folate,Folic Acid ,Vitamin Supplement ,Vitamin Supplement ,NCLM
+Imitrex,Sumatriptan,5HT1 Agonist ,Migraine treatment ,NCLM
+"Yaz, Yazmin, Gianvi, Nikki ",Ethinyl Estradiol/Drosperinone,Oral Contraceptive ,"Pregnancy Prevention, Hormone Regulation ",NCLM
+"Atarax, Vistaril ",Hydroxyzine,"H1RA, Anti-Histamine ",Allergies,NCLM
+Ditropan,Oxybutynin,Anticholinergic,Overactive Bladder ,NCLM
+Aricept,Donepezil,Cholinesterase Inhibitor,Alzheimer's,NCLM
+Plaquenil,Hydroxychloroquine,Anti-Malarial,"Anti-Malaria, Rheumatoid Arthritis, Lupus",NCLM
+Altace,Ramipril,ACEi,Antihypertensive,NCLM
+OraPred,Prednisolone,Corticosteroid,Anti-inflammatory,NCLM
+Armour Thyroid,Thyroid Extract,Thyroid Hormone,Hypothyroidism,NCLM
+Tricor,Fenofibrate,Fibric Acid Derivative,Cholesterol Lowering,NCLM
+Aleve,Naproxen,NSAID,Pain/Inflammation Relief,OTC & NCLM (strength)
+Lyrica,Pregabalin,Anticonvulsant,"Neuropathic Pain, Seizures",V
+"Humulin R, Novolin R",Insulin Regular,Short Acting Insulin,Diabetes Agent,NCLM
+Symbicort,Budesonide/Formoterol,Inhaled Corticosteroid/Long-Acting Beta-Agonist,Asthma Treatment ,NCLM
+"Dyazide, Maxzide",Triamterene/HCTZ,Potassium Sparing Diuretic/Thiazide,Antihypertensive,NCLM
+Keflex,Cephalexin,Cephalosporin Antibiotic,Bacterial Infection,NCLM
+Kenalog,Triamcinolone,Corticosteroid,Anti-Inflammatory,NCLM
+Lotensin,Benazepril,ACEi,Antihypertensive,NCLM
+Apresoline,Hydralazine,Vasodilator,"Angina, Heart Failure",NCLM
+Tenex,Guanfacine,Alpha-2 Agonist,"ADHD, Antihypertensive",NCLM
+AndroGel,Testosterone,Male Hormone Therapy,Hormone Therapy,III
+Diovan HCT,Valsartan/HCTZ,ARB/Thiazide Diuretic,Antihypertensive,NCLM
+Valium,Diazepam,Benzodiazepine,"Sedative, Anti-Anxiety",CIV
+"Amethia, Amethyst",Ethinyl Estradiol/Levonorgestrel,Oral Contraceptive,"Pregnancy Prevention, Hormone Regulation",NCLM
+Cardizem,Diltiazem,Calcium Channel Blocker,Antihypertensive,NCLM
+Seroquel,Quetiapine Fumarate ,Antipsychotic,Mood Disorders ,NCLM
+Topamax,Topiramate,Anticonvulsant,"Seizures, Migraines ",NCLM
+Neosporin,Bacitracin/Neomycin/Polymyxin B ,Triple Antibiotic ,Bacterial Infection ,OTC
+Catapres,Clonidine,Alpha-2 Agonist ,Antihypertensive,NCLM
+Celebrex,Celecoxib,COX-2 Selective NSAID ,Pain/Inflammation Relief ,NCLM
+Cipro,Ciprofloxacin,Fluoroquinolone Antibiotic ,Bacterial Infection,NCLM
+Requip,Ropinirole,Dopamine Agonist ,Parkinson's Treatment ,NCLM
+Xarelto,Rivaroxaban,Factor Xa Inhibitor ,"Anticoagulant, Blood Thinner ",NCLM
+Keppra,Levetiracetam,Anti-Convulsant ,Seizures,NCLM
+Cleocin,Clindamycin,Lincomycin Antibiotic,Bacterial Infection,NCLM
+Lopid,Gemfibrozil,Fibrate Derivative,Cholesterol Lowering,NCLM
+Janumet,Metformin/Sitagliptin,Biguanide/DPP-4 Inhibitor,Diabetes Agent,NCLM
+Lioresal,Baclofen,Muscle Relaxant,Muscle Relaxant,NCLM
+"Camila, Heather",Norethindrone,Oral Contraceptive,"Pregnancy Prevention, Hormone Regulation",NCLM
+Buspar,Buspirone,Antianxiety,Anxiety,NCLM
+Xalatan,Latanoprost,Prostaglandin Analog,Glaucoma Treatment ,NCLM
+Spiriva,Tiotropium,Anticholinergics,"Bronchodilator, Asthma Treatment",NCLM
+Zofran,Ondansetron,5HT3 Antagonist,Nausea/Vomiting,NCLM
+Mevacor,Lovastatin,HMG-CoA Reductase Inhibitor,Cholesterol Lowering,NCLM
+Imdur,Isosorbide Mononitrate,Nitrate,"Angina, Heart Failure",NCLM
+Abilify,Aripiprazole,Anti-Psychotic,Mood Disorders ,NCLM
+Doryx,Doxycycline,Tetracycline Antibiotic,Bacterial Infections,NCLM
+Levemir,Insulin Detemir,Long-Acting Insulin,Diabetes Agent,NCLM
+Pepcid,Famotidine,H2RA,Acid-Reflux/GERD,OTC
+Restoril,Temazepam,Benzodiazepine,"Sedative, Anti-Anxiety",IV
+Nitro-STAT,Nitroglycerin,Nitrate Derivative,"Angina, Heart Failure",NCLM
+Bystolic,Nebivolol,Beta-Blocker,Antihypertensive,NCLM
+Verelan,Verapamil,Calcium Channel Blocker,Antihypertensive,NCLM
+Timoptic,Timolol,Beta-Blocker,Glaucoma,NCLM
+Diovan,Valsartan,ARB,Antihypertensive,NCLM
+Proscar,Finasteride,5-Alpha Reductase Inhibitor ,Enlarged Prostate ,NCLM
+Elavil,Amitriptyline,Tri-Cyclic Antidepressant ,"Depression, Sleep ",NCLM
+Nexium,Esomeprazole,PPI,Acid-Reflux/GERD ,OTC & NCLM (strength) 
+Zanaflex,Tizanidine,Muscle Relaxant ,Muscle Relaxant ,NCLM
+Augmentin,Amoxicillin/Clavulanate Potassium ,Penicillin Antibiotic ,Bacterial Infection ,NCLM
+Rheumatrex,Methotrexate,Anti-Metabolite ,"Rheumatoid Arthritis, Psoriasis ",NCLM
+N/A ,Hydrocodone Bitartrate ,Opioid Analgesic ,Pain Relief ,II
+Remeron,Mirtazapine,Antidepressant,Depression,NCLM
+ProCardia,Nifedipine,Calcium Channel Blocker ,Antihypertensive,NCLM
+Phenergan,Promethazine,"H1RA, Anti-Histamine","Nausea/Vomiting, Allergies",NCLM
+Tessalon Perles,Benzonatate,Antitussive,Cough,NCLM
+Namenda,Memantine,NMDA Receptor Antagonist,Alzheimer's,NCLM
+Cardura,Doxazosin,Alpha-1 Blocker,"Enlarged Prostate, Antihypertensive",NCLM
+Zetia,Ezetimibe,Cholesterol Absorption Inhibitor,Cholesterol Lowering,NCLM
+Fosamax,Alendronate,Bisphosphonate,Osteoporosis,NCLM
+Vyvanse,Lisdexamfetamine,Stimulant,ADHD,II
+Feosol,Ferrous Sulfate ,Iron Supplement ,Iron Supplement ,NCLM
+Eliquis,Apixaban,Factor Xa Inhibitor ,"Anticoagulation, Blood Thinner ",NCLM
+Voltaren,Diclofenac,NSAID,Pain/Inflammation Relief ,OTC & NCLM as tablet 
+Bactrim,Sulfamethoxazole/TMP ,Sulfonamide Antibiotic ,Bacterial Infection ,NCLM
+Vasotec,Enalapril,ACEi,Antihypertensive,NCLM
+Colase,Docusate,Stool Softener ,Stool Softener ,OTC
+Humalog,Insulin Lispro ,Short-Acting Insulin ,Diabetes Agents ,NCLM
+Actos,Pioglitazone,Thiazolidinedione,Diabetes Agent ,NCLM
+Valtrex,Valacyclovir,Anti-Viral,Viral Infections,NCLM
+Paxlovid,Nirmatrelvir/ritonavir,Anti-Viral,COVID,NCLM
+Coritzone,Hydrocortisone,Corticosteroid,Anti-Inflammatory,NCLM
+MS Contin,Morphine,Opioid Analgesic,Pain Relief,II
+Risperdal,Risperidone,Anti-Psychotic,Mood Disorders,NCLM
+Januvia,Sitagliptin,DPP-4 Inhibitor ,Diabetes Agent ,NCLM
+"April, Azurette ",Ethinyl Estradiol/Desogestrel ,Oral Contraceptive ,"Pregnancy Prevention, Hormone Regulation ",NCLM
+Levaquin,Levofloxacin,Fluoroquinolone Antibiotic ,Bacterial Infection ,NCLM
+Zovirax,Acyclovir,Anti-Viral ,Viral Infection ,NCLM
+Alphagan,Brimonidine Tartrate ,Alpha agonist ,Glaucoma,NCLM
+Depakote, Divalproex Sodium,Anticonvulsant,"Seizures, Mood Diorders ",NCLM
+Antivert,Meclizine Dramamine,"H1RA, Anti-Histamine","Allergies, Motion Sickness ",OTC
+Miralax,Polyethylene Glycol 3350 ,Laxative,Constipation,OTC
+Victoza,Liraglutide,GLP-1 Agonist ,Diabetes Agents ,NCLM
+Lanoxin,Digoxin,Cardiac Glycoside ,Heart Failure ,NCLM
+Medrol,Methylprednisolone,Corticosteroid,Anti-Inflammatory,NCLM
+Lovaza,Omega-3-Acid Ethyl Esters,Omega-3 Fatty Acids,Cholesterol Lowering,NCLM
+Tamiflu,Oseltamivir,Anti-Viral,influenza Treatment,NCLM
+Lotrel,Amlodipine/Benazepril,Calcium Channel Blocker/ACEi,Antihypertensive,NCLM
+Humira,Adalimumab,TNF-alpha Blocker,"Chron's, Ulcerative Colitis",NCLM
+Nascobal,Cyanocobalamin,Vitamin B12 Supplement,Vitamin B12 Supplement,NCLM
+Hygroton,Chlorthalidone,Thiazide Diuretic,Antihypertensive,NCLM
+Tegretol,Carbamazepine,Anti-Convulsant,Seizures,NCLM
+Mirapex,Pramipexole,Dopamine Agonist,Parkinson's,NCLM
+Diflucan,Fluconazole,Anti-fungal ,Fungal Infections,NCLM
+Uro-Mag,Magnesium,Magnesium Supplementation,Magnesium Supplementation,NCLM
+Diabeta,Glyburide,Sulfonylurea,Diabetes Agent,NCLM
+Nuvaring,Ethinyl Estradiol/Etonogestrel,Vaginal Contraceptive,Pregnancy Prevention,NCLM
+Lithobid,Lithium,Anti-Psychotic,Mood Disorders,NCLM
+Pamelor,Nortriptyline,Tri-Cyclic Antidepressant,Depression,NCLM
+Combivent,Albuterol/Ipratropium,Inhaled Beta-2 Agonist/Anticholinergics,Asthma Treatment,NCLM
+Xyzal,Levocetirizine,"H1RA, Anti-Histamine",Allergies,OTC
+Robaxin,Methocarbamol,Muscle Relaxer,Pain Relief,NCLM
+Bentyl,Dicyclomine,Anticholinergics,Irritable Bowel Syndrome,NCLM
+Sinemet,Carbidopa/Levodopa,Dopamine Agonist,Parkinson's,
+Macrobid,Nitrofurantoin,Antibiotic,Bacterial Urinary Tract Infection Treatment,NCLM
+Prevacid,Lansoprazole,PPI,Acid-Reflux/GERD,OTC & NCLM (strength)
+Myrbetriq,Mirabegron,Beta-3 Agonist,Overactive Bladder,NCLM
+Hytrin,Terazosin,Alpha-Blocker,"Hypertension, Enlarged Prostate",NCLM
+Nasonex,Mometasone,Corticosteroid,"Allergies, Anti-Inflammatory",OTC
+Bactroban,Mupirocin,Topical Antibiotic,Bacterial Infection ,NCLM
+Focalin,Dexmethylphenidate,Stimulant,ADHD,II
+Invokana,Canagliflozin,SGLT-2 Inhibitor,Diabetes Agent,NCLM
+Prometrium,Progesterone,Female Hormone Therapy,Female Hormone Therapy,NCLM
+Omnicef,Cefdinir,Cephalosporin Antibiotics,Bacterial Infections,NCLM
+Bupap,Acetaminophen/Butalbital,Pain Releiver/Relaxant,Migraine Relief,III
+Pulmicort,Budesonide,Inhaled Corticosteroid,Asthma Treatment,NCLM
+"Bengay, Icy Hot",Menthol,Pain Reliever,Pain Reliever,OTC
+Cordarone,Amiodarone,Class III Anti-Arrhythmic,Arrhythmias,NCLM
+Opill,Norgestrel,Oral Contraceptive,Pregnancy Prevention,OTC
+Tradjenta,Linagliptin,DPP-4 Inhibitor ,Diabetes Agents ,NCLM
+Lexapro,Escitalopram,SSRI,Antidepressant,NCLM
+Xanax,Alprazolam,Benzodiazepine,Anxiety,IV
+Wellbutrin,Bupropion,Antidepressant,Depression,NCLM
+Deltasone,Prednisone,Corticosteroid,Inflammation,NCLM
+Dupixent,Dupilumab,Interleukin inhibitor,"Eczema, Asthma, COPD",NCLM

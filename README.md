@@ -11,3 +11,11 @@ Features:
 - Corruption-safe persistence
 
 Built with Python + Tkinter.
+
+---
+
+## Support Development
+
+If you find this project helpful and would like to support ongoing development:
+
+☕ Buy Me a Coffee: https://buymeacoffee.com/grandpagreg

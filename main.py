@@ -6,6 +6,7 @@ from tkinter import messagebox
 import random
 import csv
 import time
+import webbrowser
 
 # ============================
 # STRING HELPERS
@@ -130,7 +131,10 @@ def load_drugs(filename, classifications):
 # LOAD FILES
 # ============================
 
-base_path = os.path.dirname(os.path.abspath(__file__))
+if getattr(sys, 'frozen', False):
+    base_path = sys._MEIPASS
+else:
+    base_path = os.path.dirname(os.path.abspath(__file__))
 
 data_path = os.path.join(base_path, "data")
 
@@ -492,6 +496,10 @@ def show_summary_screen():
               command=summary.destroy).pack(pady=5)
 
 
+def open_support():
+    webbrowser.open("https://buymeacoffee.com/grandpagreg")
+
+
 # ============================
 # UI SETUP
 # ============================
@@ -570,6 +578,15 @@ dataset_label = tk.Label(
     fg="gray"
 )
 dataset_label.pack()
+
+
+tk.Button(
+    top_frame,
+    text="Support Development",
+    command=open_support,
+    fg="blue",
+    relief="flat"
+).pack(pady=3)
 
 
 score_label = tk.Label(top_frame, text="Score: 0/0", font=("Arial", 14))

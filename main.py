@@ -1,3 +1,4 @@
+APP_VERSION = "v1.0.2"
 import sys
 import json
 import os
@@ -7,6 +8,7 @@ import random
 import csv
 import time
 import webbrowser
+IS_WINDOWS = sys.platform.startswith("win")
 
 # ============================
 # STRING HELPERS
@@ -267,19 +269,25 @@ def new_question():
         b.destroy()
     buttons.clear()
 
-    for option in options:
-        b = tk.Button(
-            answer_frame,
-            text=option,
-            width=70,
-            height=3,
-            relief="flat",
-            bg="#f0f0f0",
-            activebackground="#f0f0f0",
-            command=lambda opt=option: answer_click(opt)
-        )
-        b.pack(pady=8, fill="x", padx=150)
-        buttons.append(b)
+    for i, option in enumerate(options):
+            b = tk.Button(
+                answer_frame,
+                text=option,
+                wraplength=280,
+                font=("Arial", 10),
+                padx=8,
+                pady=5,
+                command=lambda opt=option: answer_click(opt)
+            )
+
+            row = i // 2
+            col = i % 2
+
+            b.grid(row=row, column=col, padx=8, pady=6, sticky="ew")
+            buttons.append(b)
+
+    answer_frame.grid_columnconfigure(0, weight=1)
+    answer_frame.grid_columnconfigure(1, weight=1)
 
 def answer_click(text):
     global score, total, correct_answer
@@ -491,9 +499,7 @@ def show_summary_screen():
               command=retest).pack(pady=5)
 
     tk.Button(summary, text="Close",
-              bg="red",
-              fg="red",
-              command=summary.destroy).pack(pady=5)
+              command=summary.destroy).pack(pady=10)
 
 
 def open_support():
@@ -558,55 +564,96 @@ def show_stats():
             font=("Arial", 12)
         ).pack(anchor="w", padx=30)
 
+# ============================
+# UI SETUP (CLEAN VERSION)
+# ============================
+
+# ============================
+# UI SETUP (TWO PANEL LAYOUT)
+# ============================
+
 root = tk.Tk()
 root.title("Top 200 Drug Study System")
-root.geometry("1000x900")
+root.geometry("1100x700")
+root.minsize(1000, 650)
 
-top_frame = tk.Frame(root)
-top_frame.pack(side="top", fill="x")
+# ===== MAIN CONTAINER =====
+main_container = tk.Frame(root)
+main_container.pack(fill="both", expand=True, padx=20, pady=20)
 
-bottom_frame = tk.Frame(root)
-bottom_frame.pack(side="bottom", fill="both", expand=True)
+# Configure 2 columns (Left = Quiz, Right = Controls)
+main_container.grid_columnconfigure(0, weight=3)
+main_container.grid_columnconfigure(1, weight=2)
+main_container.grid_rowconfigure(0, weight=1)
 
-title = tk.Label(top_frame, text="Top 200 Drug Study System", font=("Arial", 20))
-title.pack(pady=10)
+# ============================
+# LEFT PANEL (QUIZ AREA)
+# ============================
 
-dataset_label = tk.Label(
-    top_frame,
+left_panel = tk.Frame(main_container)
+left_panel.grid(row=0, column=0, sticky="nsew", padx=(0, 20))
+
+tk.Label(
+    left_panel,
+    text="Top 200 Drug Study System",
+    font=("Arial", 18)
+).pack(anchor="w")
+
+tk.Label(
+    left_panel,
     text=DATASET_VERSION,
-    font=("Arial", 10),
+    font=("Arial", 9),
     fg="gray"
-)
-dataset_label.pack()
+).pack(anchor="w")
 
-
-tk.Button(
-    top_frame,
-    text="Support Development",
-    command=open_support,
-    fg="blue",
-    relief="flat"
-).pack(pady=3)
-
-
-score_label = tk.Label(top_frame, text="Score: 0/0", font=("Arial", 14))
-score_label.pack()
+score_label = tk.Label(left_panel, text="Score: 0/0", font=("Arial", 13))
+score_label.pack(anchor="w", pady=(10, 5))
 
 category_count_label = tk.Label(
-    top_frame,
+    left_panel,
     text=f"Selected Categories: {len(selected_categories)}",
-    font=("Arial", 12)
+    font=("Arial", 11)
 )
-category_count_label.pack()
+category_count_label.pack(anchor="w")
 
-question_label = tk.Label(top_frame, text="Choose Mode", font=("Arial", 14))
-question_label.pack(pady=20)
+question_label = tk.Label(
+    left_panel,
+    text="Choose Mode",
+    font=("Arial", 14),
+    justify="left",
+    wraplength=600
+)
+question_label.pack(anchor="w", pady=(20, 5))
 
-feedback_label = tk.Label(top_frame, text="", font=("Arial", 16))
-feedback_label.pack(pady=5)
+feedback_label = tk.Label(
+    left_panel,
+    text="",
+    font=("Arial", 14)
+)
+feedback_label.pack(anchor="w", pady=(5, 10))
 
-button_frame = tk.Frame(top_frame)
-button_frame.pack()
+# ----- ANSWER AREA -----
+answer_frame = tk.Frame(left_panel)
+answer_frame.pack(fill="x", pady=10)
+
+buttons = []
+
+# ============================
+# RIGHT PANEL (CONTROLS)
+# ============================
+
+right_panel = tk.Frame(main_container)
+right_panel.grid(row=0, column=1, sticky="nsew")
+
+tk.Label(
+    right_panel,
+    text="Quiz Controls",
+    font=("Arial", 14, "bold")
+).pack(anchor="w", pady=(0, 10))
+
+# ----- MODE BUTTONS -----
+mode_frame = tk.Frame(right_panel)
+mode_frame.pack(anchor="w", pady=5)
 
 modes = [
     ("Brand → Generic", "brand_generic"),
@@ -617,83 +664,69 @@ modes = [
     ("Schedule", "schedule"),
 ]
 
-for i, (label, value) in enumerate(modes):
-    tk.Button(button_frame, text=label,
-              command=lambda v=value: set_mode(v)).grid(row=0, column=i, padx=5)
+for label, value in modes:
+    tk.Button(
+        mode_frame,
+        text=label,
+        width=20,
+        command=lambda v=value: set_mode(v)
+    ).pack(anchor="w", pady=3)
 
+# ----- OPTIONS -----
 adaptive_mode_var = tk.BooleanVar(value=False)
-tk.Checkbutton(top_frame, text="Adaptive Mode",
-               variable=adaptive_mode_var).pack(pady=5)
+tk.Checkbutton(
+    right_panel,
+    text="Adaptive Mode",
+    variable=adaptive_mode_var
+).pack(anchor="w", pady=5)
 
 tk.Button(
-    top_frame,
+    right_panel,
     text="Select Categories",
     command=select_categories,
     bg="lightgreen"
-).pack(pady=5)
+).pack(anchor="w", pady=5)
 
-limit_frame = tk.Frame(top_frame)
-limit_frame.pack(pady=5)
+limit_frame = tk.Frame(right_panel)
+limit_frame.pack(anchor="w", pady=5)
 
-tk.Label(limit_frame, text="Questions per Session:").pack(side="left")
+tk.Label(limit_frame, text="Questions per Session:").pack(anchor="w")
 
 question_limit_var = tk.StringVar(value="All")
-
 question_options = ["All", "10", "25", "50", "100"]
 
-limit_menu = tk.OptionMenu(limit_frame, question_limit_var, *question_options)
-limit_menu.pack(side="left")
+tk.OptionMenu(limit_frame, question_limit_var, *question_options).pack(anchor="w")
 
-
+# ----- SESSION CONTROLS -----
 end_session_button = tk.Button(
-    top_frame,
+    right_panel,
     text="End Session",
     bg="orange",
-    font=("Arial", 12),
     state="disabled",
     command=show_summary_screen
 )
+end_session_button.pack(anchor="w", pady=(15, 5))
 
 tk.Button(
-    top_frame,
+    right_panel,
     text="View Lifetime Stats",
     command=show_stats,
     bg="lightblue"
-).pack(pady=5)
-
+).pack(anchor="w", pady=5)
 
 tk.Button(
-    top_frame,
+    right_panel,
     text="Reset Lifetime Stats",
     command=reset_lifetime_stats,
-    fg="red",
-    font=("Arial", 12, "bold")
-).pack(pady=5)
+    fg="red"
+).pack(anchor="w", pady=5)
 
-
-
-
-end_session_button.pack(pady=5)
-
-
-canvas = tk.Canvas(bottom_frame)
-scrollbar = tk.Scrollbar(bottom_frame, orient="vertical", command=canvas.yview)
-
-scrollable_frame = tk.Frame(canvas)
-
-scrollable_frame.bind(
-    "<Configure>",
-    lambda e: canvas.configure(scrollregion=canvas.bbox("all"))
-)
-
-canvas.create_window((0, 0), window=scrollable_frame, anchor="nw")
-canvas.configure(yscrollcommand=scrollbar.set)
-
-canvas.pack(side="left", fill="both", expand=True)
-scrollbar.pack(side="right", fill="y")
-
-answer_frame = scrollable_frame
-
-buttons = []
+tk.Button(
+    right_panel,
+    text="Support Development",
+    command=open_support,
+    fg="blue",
+    relief="flat"
+).pack(anchor="w", pady=(20, 0))
 
 root.mainloop()

@@ -17,3 +17,6 @@ __pycache__/
 # Stats backups
 *.corrupted_backup
 *.tmp
+
+#Apps
+*.app

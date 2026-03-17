@@ -1,5 +1,19 @@
 # Top 200 Drug Study System
 
+
+## v1.0.2 – Cross-Platform UI Update
+
+- Implemented new two-panel layout for improved cross-platform stability
+- Fixed Windows answer button visibility issue
+- Redesigned answer buttons into compact 2x2 grid
+- Fixed Session Summary close button visibility
+- Verified builds for:
+  - Mac Apple Silicon (arm64)
+  - Mac Intel (x86_64)
+  - Windows
+
+
+
 **Version:** v1.0.1  
 **Dataset:** Top 200 (2026 Edition)
 
